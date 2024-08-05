@@ -1,0 +1,17 @@
+{
+  "name": "sypai-to-github-exporter",
+  "version": "1.0.0",
+  "description": "A script to export sypai posts to CSV and upload to GitHub",
+  "main": "export.js",
+  "scripts": {
+    "start": "node export.js"
+  },
+  "author": "HAN",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^18.0.0",
+    "csv-writer": "^1.6.0",
+    "mysql": "^2.18.1",
+    "node-schedule": "^2.0.0"
+  }
+}
